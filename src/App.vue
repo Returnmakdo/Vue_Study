@@ -1,6 +1,7 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> | <router-link to="/databinding">데이터바인딩</router-link>|
+    <router-link to="/nestedcomponent">nestedcomponent</router-link>
   </nav>
   <router-view />
 </template>

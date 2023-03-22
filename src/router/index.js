@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import DataBinding from "../views/DataBinding.vue";
+import NestedComponent from "../views/NestedComponent.vue";
 
 const routes = [
   // 이 안에서 라우터 설정할 수 있음
@@ -18,6 +19,11 @@ const routes = [
     path: "/databinding",
     name: "DataBinding",
     component: DataBinding,
+  },
+  {
+    path: "/nestedcomponent",
+    name: "NestedComponent",
+    component: NestedComponent,
   },
 ];
 
